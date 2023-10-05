@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './landing-page/navbar'
+import Body from './landing-page/body'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
     <Navbar/>
-
+    <Body/>
     </>
   )
 }

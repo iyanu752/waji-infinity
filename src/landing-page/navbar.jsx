@@ -19,15 +19,15 @@ function Navbar() {
       <img src={INFINITYTEXT} alt='infinity-text ' className='hidden lg:flex' />
     </div>
 
-      <ul className='lg:flex gap-10 text-white hidden  '>
-        <li><a>Services</a></li>
-        <li><a>About Infinity</a></li>
-        <li><a>Pricing</a></li>
-        <li><a>Contact Us</a></li>
+      <ul className='lg:flex gap-10 text-white hidden'>
+        <li><a className='font-bold hover:text-orange-400 hover: transition duration-300 ease-in-out transform hover:scale-110'>Services</a></li>
+        <li><a className='font-bold hover:text-orange-400 hover: transition duration-300 ease-in-out transform hover:scale-110'>About Infinity</a></li>
+        <li><a className='font-bold hover:text-orange-400 hover: transition duration-300 ease-in-out transform hover:scale-110'>Pricing</a></li>
+        <li><a className='font-bold hover:text-orange-400 hover: transition duration-300 ease-in-out transform hover:scale-110'>Contact Us</a></li>
       </ul>
 
     <div className='hidden lg:flex'>
-    <button className= ' bg-gray-700 p-3 px-10 text-white rounded-lg'> Get Started </button>
+    <button className= ' bg-gray-700 p-3 px-10 text-white rounded-lg hover:bg-gray-950 transition duration-300 ease-in-out transform hover:scale-110'> Get Started </button>
     </div>
     <div className='lg:hidden'>
       <HiMenu className='w-7 h-7 text-white' onClick={toggleSidebar}/>

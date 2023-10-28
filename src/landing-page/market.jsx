@@ -23,7 +23,7 @@ function MARKET() {
                                     where we bring you the latest and greatest products in a laid-back and informative way!
                                 </span> 
                                 <div className='lg:mr-52 items-center'>
-                                <button className="p-3  bg-gray-700 rounded-lg text-white mt-5">BUY/SELL</button>
+                                <button className="p-3  bg-gray-700 rounded-lg text-white mt-5 hover:bg-gray-950 transition duration-300 ease-in-out transform hover:scale-110">BUY/SELL</button>
                                 </div>
                         </div>             
                     </div>
@@ -46,7 +46,7 @@ function MARKET() {
                                      where we bring you the latest and greatest products in a laid-back and informative way!
                                     </span> 
                                     <div className='lg:mr-52 items-center'>
-                                    <button className="p-3  bg-gray-700 rounded-lg text-white mt-5">BUY/SELL</button>
+                                    <button className="p-3  bg-gray-700 rounded-lg text-white mt-5 hover:bg-gray-950 transition duration-300 ease-in-out transform hover:scale-110">BUY/SELL</button>
                                     </div>
                                     
                             </div>             

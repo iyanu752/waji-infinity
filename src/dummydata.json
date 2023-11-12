@@ -1,0 +1,83 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "password": "password123",
+        "cart": []
+      },
+      {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "password": "securepass",
+        "cart": []
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics"
+      },
+      {
+        "id": 2,
+        "name": "Clothing"
+      },
+      {
+        "id": 3,
+        "name": "Books"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "category_id": 1,
+        "price": 599.99,
+        "stock": 50,
+        "image": "https://example.com/images/smartphone.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "category_id": 1,
+        "price": 1299.99,
+        "stock": 30,
+        "image": "https://example.com/images/laptop.jpg"
+      },
+      {
+        "id": 3,
+        "name": "T-shirt",
+        "category_id": 2,
+        "price": 19.99,
+        "stock": 100,
+        "image": "https://example.com/images/tshirt.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Jeans",
+        "category_id": 2,
+        "price": 39.99,
+        "stock": 80,
+        "image": "https://example.com/images/jeans.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Programming Book",
+        "category_id": 3,
+        "price": 29.99,
+        "stock": 50,
+        "image": "https://example.com/images/programming_book.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Novel",
+        "category_id": 3,
+        "price": 14.99,
+        "stock": 70,
+        "image": "https://example.com/images/novel.jpg"
+      }
+    ]
+  }
+  
